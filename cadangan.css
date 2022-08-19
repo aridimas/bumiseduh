@@ -14873,6 +14873,15 @@ input[type=text].fq-newsletter-form{
     width:100%;
     margin:10px
 }
+.rq-partners-section2 .partner-single2{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:170px;
+    width:100%;
+    margin:10px
+}
 @media (max-width:768px){
     .rq-partners-section .partner-single{
         margin-bottom:25px
@@ -20105,7 +20114,19 @@ input.comment-input:-ms-input-placeholder,textarea.comment-input:-ms-input-place
     left:0;
     z-index:10;
     width:100%;
-    height:50%;
+    height:60%;
+    background:-webkit-linear-gradient(bottom,rgba(0,0,0,.6),rgba(0,0,0,.3),rgba(0,0,0,0));
+    background:-o-linear-gradient(bottom,rgba(0,0,0,.6),rgba(0,0,0,.3),rgba(0,0,0,0));
+    background:-moz-linear-gradient(bottom,rgba(0,0,0,.6),rgba(0,0,0,.3),rgba(0,0,0,0));
+    background:linear-gradient(bottom,rgba(0,0,0,.6),rgba(0,0,0,.3),rgba(0,0,0,0))
+}
+.listing-detials-content .rq-gallery-content .item .rq-top-overlay{
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index:10;
+    width:100%;
+    height:100%;
     background:-webkit-linear-gradient(bottom,rgba(0,0,0,.6),rgba(0,0,0,.3),rgba(0,0,0,0));
     background:-o-linear-gradient(bottom,rgba(0,0,0,.6),rgba(0,0,0,.3),rgba(0,0,0,0));
     background:-moz-linear-gradient(bottom,rgba(0,0,0,.6),rgba(0,0,0,.3),rgba(0,0,0,0));
